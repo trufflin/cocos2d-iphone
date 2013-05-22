@@ -132,15 +132,15 @@
 #endif 
 
 // Platform common
-#import "Platforms/CCGL.h"
-#import "Platforms/CCNS.h"
+#import "CCGL.h"
+#import "CCNS.h"
 
 #ifdef __IPHONE_OS_VERSION_MAX_ALLOWED
-#import "Platforms/iOS/CCTouchDispatcher.h"
-#import "Platforms/iOS/CCTouchDelegateProtocol.h"
-#import "Platforms/iOS/CCTouchHandler.h"
-#import "Platforms/iOS/EAGLView.h"
-#import "Platforms/iOS/CCDirectorIOS.h"
+#import "CCTouchDispatcher.h"
+#import "CCTouchDelegateProtocol.h"
+#import "CCTouchHandler.h"
+#import "EAGLView.h"
+#import "CCDirectorIOS.h"
 
 #elif defined(__MAC_OS_X_VERSION_MAX_ALLOWED)
 #import "Platforms/Mac/MacGLView.h"
@@ -150,12 +150,12 @@
 //
 // cocos2d helper files
 //
-#import "Support/OpenGL_Internal.h"
-#import "Support/CCFileUtils.h"
-#import "Support/CGPointExtension.h"
-#import "Support/ccCArray.h"
-#import "Support/CCArray.h"
-#import "Support/ccUtils.h"
+#import "OpenGL_Internal.h"
+#import "CCFileUtils.h"
+#import "CGPointExtension.h"
+#import "ccCArray.h"
+#import "CCArray.h"
+#import "ccUtils.h"
 
 #if CC_ENABLE_PROFILERS
 #import "Support/CCProfiling.h"

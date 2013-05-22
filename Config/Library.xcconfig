@@ -1,0 +1,15 @@
+//
+//  Library.xcconfig
+//  Core
+//
+//  Created by Rahul Gupta on 5/21/13.
+//
+//
+
+#include "../../../Shared/Shared.xcconfig"
+
+PRODUCT_NAME                    = cocos2d
+HEADERS_FOLDER_PATH             = /../Headers/
+PRIVATE_HEADERS_FOLDER_PATH     = $(HEADERS_FOLDER_PATH)$(PRODUCT_NAME)/private
+PUBLIC_HEADERS_FOLDER_PATH      = $(HEADERS_FOLDER_PATH)$(PRODUCT_NAME)
+

@@ -232,7 +232,7 @@ do {															\
  On Mac it returns 1;
  On iPhone it returns 2 if RetinaDisplay is On. Otherwise it returns 1
  */
-#import "Platforms/iOS/CCDirectorIOS.h"
+#import "CCDirectorIOS.h"
 #define CC_CONTENT_SCALE_FACTOR() __ccContentScaleFactor
 
 

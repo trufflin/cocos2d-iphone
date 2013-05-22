@@ -1,0 +1,10 @@
+//
+//  Library-Debug.xcconfig
+//  Core
+//
+//  Created by Rahul Gupta on 5/21/13.
+//
+//
+
+#include "Library.xcconfig"
+

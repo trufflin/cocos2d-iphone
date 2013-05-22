@@ -33,7 +33,7 @@
 #import "CCTouchDelegateProtocol.h"
 #import "EAGLView.h"
 #import "CCArray.h"			// CCArray
-#import "../../ccMacros.h"	// CCLOG
+#import "ccMacros.h"	// CCLOG
 
 
 #define CC_UNUSED_ARGUMENT			0

@@ -43,7 +43,7 @@
 #import <stdlib.h>
 #import <string.h>
 
-#import "../ccMacros.h"
+#import "ccMacros.h"
 
 #pragma mark -
 #pragma mark ccArray for Objects
